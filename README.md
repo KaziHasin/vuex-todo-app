@@ -1,35 +1,25 @@
-# todo-vuex
+# Todo App
 
-This template should help get you started developing with Vue 3 in Vite.
+A small app Todo listing using json placeholder fake api. I used Vue js and Vuex, axios library for building it.
 
-## Recommended IDE Setup
+## setup the app
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+setup the app
 
-## Customize configuration
+clone or feth the app
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+cd todo-vuex
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
+
+## API Reference
+
+#### Get all items
+
+```http
+ Methods => GET / POST/ PUT / DELETE
+  https://jsonplaceholder.typicode.com/todos/
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+| Parameter | Type  
+| `id` | `string` |
