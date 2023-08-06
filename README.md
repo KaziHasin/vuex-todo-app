@@ -8,7 +8,7 @@ setup the app
 
 clone or feth the app
 
-cd todo-vuex
+cd vuex-todo-app
 
 npm run dev
 
