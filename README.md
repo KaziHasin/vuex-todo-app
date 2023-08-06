@@ -4,17 +4,15 @@ A small app Todo listing using json placeholder fake api. I used Vue js and Vuex
 
 ## setup the app
 
-setup the app
-
 clone or feth the app
 
 cd vuex-todo-app
 
+npm install
+
 npm run dev
 
 ## API Reference
-
-#### Get all items
 
 ```http
  Methods => GET / POST/ PUT / DELETE
